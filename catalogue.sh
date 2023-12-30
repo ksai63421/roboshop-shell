@@ -88,3 +88,5 @@ mongo --host mongodb.joindevops.online </app/schema/catalogue.js &>> $LOGFILE
 
 VALIDATE $? "loading catalogue data into mongodb"
 
+# done
+

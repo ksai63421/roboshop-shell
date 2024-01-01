@@ -30,7 +30,7 @@ curl -sL https://rpm.nodesource.com/setup_lts.x | bash &>> $LOGFILE
 
 VALIDATE $? "Setting up NPM Source"
 
-yum install nodejs -y &>> $LOGFILE
+yum install nodejs -y 
 
 VALIDATE $? "Installing NodeJS"
 
